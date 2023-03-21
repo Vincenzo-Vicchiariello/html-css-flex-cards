@@ -54,38 +54,27 @@ h3 {
     max-width: 400px;
     display: flex;
     flex-direction: row;
-    max-height: 100px;
-    justify-content: flex-start;
+    justify-content: flex-start
+    flex-wrap: wrap;
 }
 
 .role {
+    align-self:center;
     color: white;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 100;
-    display: flex;
-    align-self: flex-end;
-    padding-right: 50px;
 }
 
 
 .name {
-    display: inline-flex;
     align-self: flex-start;
-    padding-right: 50px;
     color: white;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 400;
 }
 
 img {
     max-height: 100px;
+    margin-bottom: 0px;
 }
 
 .mail {
-    display: inline-flex;
-    padding-right: 50px;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 100;
     align-self: flex-end;
-    justify-content: flex-start;
+    justify-content: flex-end;
 }
