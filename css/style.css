@@ -1,0 +1,91 @@
+h1 {
+    color: #E53170;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+#TeamIntroduction {
+    font-family: 'Rubik', sans-serif; 
+    font-weight: 100;
+    text-align: center;
+}
+
+main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 30px 50px;
+
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+}
+
+h3 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    display: inline;
+    color: white;
+}
+
+.inline{
+    display: inline;
+}
+
+.card {
+    background-color: #0F0E17;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    max-height: 100px;
+    justify-content: flex-start;
+}
+
+.role {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+    display: flex;
+    align-self: flex-end;
+    padding-right: 50px;
+}
+
+
+.name {
+    display: inline-flex;
+    align-self: flex-start;
+    padding-right: 50px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+img {
+    max-height: 100px;
+}
+
+.mail {
+    display: inline-flex;
+    padding-right: 50px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+    align-self: flex-end;
+    justify-content: flex-start;
+}
