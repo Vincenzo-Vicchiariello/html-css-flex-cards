@@ -2,12 +2,14 @@ h1 {
     color: #E53170;
     font-family: 'Rubik', sans-serif;
     text-align: center;
+    padding-top: 120px;
+    padding-bottom: 20px;
 }
 
 #TeamIntroduction {
     font-family: 'Rubik', sans-serif; 
     font-weight: 100;
-    text-align: center;
+    text-align: justify;
 }
 
 main {
@@ -54,6 +56,7 @@ h3 {
     height: 100px;
     display: flex;
     justify-content: flex-start;
+    box-shadow: 3px 3px 10px rgb(57, 61, 63)
 }
 
 .role {
@@ -80,3 +83,38 @@ img {
 a {
     color: cyan;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0F0E17;
+    color: white;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+.flex-header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #0F0E17;
+    color: white;
+    display: flex;
+}
+
+.header-element {
+    display: flex;
+    color: white;
+}
+
+.marginauto {
+    margin: auto;
+}
+
+.itemcenter {
+    align-items: flex-end;
+}
+
