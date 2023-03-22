@@ -27,7 +27,7 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
     gap: 30px 50px;
 }
@@ -51,23 +51,20 @@ h3 {
 .card {
     background-color: #0F0E17;
     width: 400px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start
     height: 100px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .role {
-    align-self: center;
-    text-align: left;
     color: white;
+    line-height: 220%
 }
 
 
 .name {
-    align-self: flex-start;
     color: white;
-}
+    font-weight: 400;}
 
 img {
     max-height: 100px;
@@ -78,4 +75,8 @@ img {
 .mail {
     align-self: flex-end;
     justify-content: center;
+}
+
+a {
+    color: cyan;
 }
