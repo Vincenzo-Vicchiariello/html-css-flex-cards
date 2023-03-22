@@ -30,7 +30,6 @@ header {
     justify-content: space-around;
     align-items: flex-start;
     gap: 30px 50px;
-
 }
 
 p {
@@ -51,15 +50,16 @@ h3 {
 
 .card {
     background-color: #0F0E17;
-    max-width: 400px;
+    width: 400px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start
-    flex-wrap: wrap;
+    height: 100px;
 }
 
 .role {
-    align-self:center;
+    align-self: center;
+    text-align: left;
     color: white;
 }
 
@@ -72,9 +72,10 @@ h3 {
 img {
     max-height: 100px;
     margin-bottom: 0px;
+    padding-right: 20px;
 }
 
 .mail {
     align-self: flex-end;
-    justify-content: flex-end;
+    justify-content: center;
 }
